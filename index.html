@@ -16,7 +16,7 @@
 <!--<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>-->
  <link  rel="stylesheet" href="css/output.css">
 
- <!--<link rel="stylesheet" href="css/csmjustyle.css">-->
+ <link rel="stylesheet" href="css/csmjustyle.css">
 </head>
 
 <body>
@@ -26,9 +26,9 @@
             from-red-500 via-yellow-500 to-green-500 bg-clip-text 
             text-transparent sm:text-8xl">Hello HTML101</h1>
         </header>
-        <nav class="bg-blue-100">
+        <nav class="bg-blue-100 px-5">
             <!--Navigation Area-->
-            <ul class="flex">
+            <ul class="flex space-x-3 justify-end">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
@@ -36,14 +36,19 @@
             </ul>
         </nav>
         <div>
-            Hi
-            Main Content Area
+            <div class="mx-auto max-w-2xl py-32 bg-amber-50">
+            <h1 class="text-4xl font-bold">Hi
+            Main Content Area</h1>
             <p>This is a paragraph inside the main contain area.</p>
             <h2>คณะวิทยาศาสตร์</h2>
             <p>สาขาวิทยาการคอมพิวเตอร์</p>
-            <img src="image/cake.jpg" alt="รูปเค้ก"
-            width="300" height="200">
-            <img src="https://rspg2025.mju.ac.th/goverment/25670712160358_rspg2025/banner_25680228132835_156679.png">
+            </div>
+            <div class="grid grid-cols-2 gap-4 p-4">
+                <img class="cs-image" src="image/cake.jpg" alt="รูปเค้ก">
+                <img class="cs-image"
+                    src="https://rspg2025.mju.ac.th/goverment/25670712160358_rspg2025/banner_25680228132835_156679.png" alt="">
+                <img class="cs-image" src="image/cake.jpg" alt="รูปเค้ก">
+            </div>
             <h3>ตารางชื่อนักศึกษา</h3>
             <table border="1">
                 <thead>
