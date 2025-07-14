@@ -7,10 +7,45 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
-
+h1{
+    font-family: "tangerine", cursive;
+    font-size: 3em;
+    color: aqua;
+}
 header {
     background-color: #c0ffc2;
     color: rgb(16, 11, 56);
     padding: 10px 0;
     text-align: left;
+}
+nav {
+    background-color: #333;
+}
+nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+nav ol li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ol li a {
+    color: white;
+    text-decoration: none;
+}
+nav ol li a:hover{
+    text-decoration: underline;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.csmju-text {
+    font-size: 1.2em;
+    color: aqua;
+    margin: 50px 0;
 }
